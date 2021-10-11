@@ -115,6 +115,11 @@ a{
     position: relative;
     left: 20px;
     top: 10px;
+    transition: .4s;
+}
+
+.span_link:hover{
+    background-color: turquoise;
 }
 
 .main_span{
@@ -148,6 +153,11 @@ a{
     left: 140px;
     padding: 9px 30px;
     border-radius: 5px;
+    transition: .4s;
+}
+
+.main_link:hover{
+    background-color: turquoise;
 }
 
 /*main1*/
@@ -210,6 +220,8 @@ a{
 
 .sect{
     margin-top: 200px;
+    background-color: rgb(67, 67, 99);
+    height: 600px;
 }
 
 .set_text{
@@ -218,18 +230,77 @@ a{
     position: relative;
     left: 450px;
     bottom: 60px;
+    color: white;
+    top: 103px;
 }
 
 .sect_img{
     width: 37px;
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
 .sect_item{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    margin-left: 10px;
+    top: 200px;
 }
 
 .sect_titlee{
-   
-    width: 23%;
+   width: 26%;
+   margin: 10px 0px;
+}
+
+.photooo{
+    background-color: white;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.sect_textt_{
+    position: relative;
+    left: 60px;
+    bottom: 27px;
+    font-weight: bold;
+}
+
+.mainn{
+    margin-top: 200px;
+}
+
+.mainn_photo{
+    display: flex;
+    width: 70%;
+    margin-left: 100px;
+}
+
+.mainn_img{
+    width: 100%;
+}
+
+.mainn_img{
+    width: 80%;
+   position: relative;
+   right: -70px;
+}
+
+.mainn_text{
+    font-size: 45px;
+    margin-left: 550px;
+    position: relative;
+    bottom: 100px;
+}
+
+.mainn_textt{
+    width: 33%;
+    text-align: center;
+    margin-left: 480px;
+    position: relative;
+    bottom: 60px;
+    line-height: 30px;
+    color: rgb(138, 129, 129);
 }
