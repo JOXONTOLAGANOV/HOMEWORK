@@ -304,3 +304,151 @@ a{
     line-height: 30px;
     color: rgb(138, 129, 129);
 }
+
+.mainn_title1{
+    display: flex;
+    align-items: center;
+}
+
+.mainn1{
+    background-color: rgb(61, 61, 216);
+}
+
+.mainn_text1{
+    font-size: 50px;
+    width: 90%;
+    color: white;
+    position: relative;
+    left: 200px;
+    top: 15px;
+}
+
+.mainn_photo1{
+    width: 150%;
+}
+
+.mainn_textt1{
+    width: 80%;
+    color: white;
+    position: relative;
+    top: 40px;
+    line-height: 30px;
+    left: 200px;
+}
+
+.mainn_link{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    color: black;
+    background-color: rgba(255, 217, 0, 0.863);
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 8px;
+    transition: .4s;
+}
+
+.mainn_link:hover{
+    background-color: mediumspringgreen;
+}
+
+
+
+
+
+.section_1{
+    margin-top: 200px;
+}
+
+.section_text{
+    font-size: 45px;
+    margin-left: 400px;
+    position: relative;
+    bottom: 100px;
+}
+
+.section_textt{
+    text-align: center;
+    width: 37%;
+    margin-left: 330px;
+    position: relative;
+    bottom: 70px;
+    line-height: 30px;
+    color: rgb(102, 93, 93);
+    font-weight: bold;
+}
+
+
+.wwww{
+   display: flex;
+}
+
+.section_text_span1{
+    width: 30%;
+    font-weight: bold;
+    color: rgb(77, 74, 74);
+    position: relative;
+    left: 250px;
+    line-height: 25px;
+}
+
+.section_text_span2{
+    width: 30%;
+    font-weight: bold;
+    color: rgb(77, 74, 74);
+    position: relative;
+    left: 640px;
+    bottom: 187px;
+    line-height: 25px;
+}
+
+.lllll{
+    position: relative;
+    left: 300px;
+}
+
+.span_img1{
+    position: relative;
+    left: 240px;
+    width: 35px;
+    top: 45px;
+}
+
+.ggggg{
+    position: relative;
+    left: 690px;
+    bottom: 185px;
+}
+
+.span_img2{
+    position: relative;
+    left: 639px;
+    width: 35px;
+    top: -140px;
+}
+
+.main_1_textt{
+    font-size: 50px;
+    width: 45%;
+    color: white;
+}
+
+.main_1_link{
+    margin-left: 1000px;
+    position: relative;
+    bottom: 80px;
+    color: black;
+    background-color: gold;
+    padding: 13px 50px;
+    font-weight: bold;
+    transition: .4s;
+    border-radius: 6px;
+}
+
+.main_1_link:hover{
+    background-color: turquoise;
+}
+
+.main_1{
+    background-color: rgb(66, 66, 160);
+}
