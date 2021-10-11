@@ -45,6 +45,8 @@ a{
 
 .nav_item{
     margin: 20px;
+    position: relative;
+    left: 150px;
 }
 
 .link{
@@ -61,4 +63,89 @@ a{
 
 .nav_text{
     color: white;
+}
+
+.link12{
+    font-weight: bold;
+    position: relative;
+    left: 260px;
+}
+
+.span_img{
+    width: 18px;
+    position: relative;
+    right:  15px;
+}
+
+/*main*/
+
+.main_title{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.heard_title1{
+    color: white;
+}
+
+.main_text{
+    font-size: 45px;
+    width: 70%;
+    position: relative;
+    bottom: 50px;
+}
+
+.main_textt{
+    width: 70%;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: rgb(202, 198, 198);
+    position: relative;
+    bottom: 32px;
+}
+
+.span_link{
+    color: white;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 10px;
+    height: 2%;
+    border-radius: 7px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.main_span{
+    font-size: 40px;
+    position: relative;
+    left: 5px;
+}
+
+.span_text{
+    color: rgb(202, 198, 198);
+    font-weight: bold;
+    position: relative;
+    left: 5px;
+}
+
+
+.mainn_item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 42%;
+    background-color: rgb(91, 91, 216);
+    border-radius: 10px;
+}
+
+.main_link{
+    color: black;
+    background-color: rgb(235, 175, 10);
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 140px;
+    padding: 9px 30px;
+    border-radius: 5px;
 }
