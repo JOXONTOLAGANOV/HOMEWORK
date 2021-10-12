@@ -51,10 +51,20 @@ a{
 
 .link{
     color: white;
+    transition: .4s;
+}
+
+.link:hover{
+   color: cyan;
 }
 
 .link1{
     color: darkgrey;
+    transition: .4s;
+}
+
+.link1:hover{
+    color: rgb(0, 233, 0);
 }
 
 .link12{
@@ -497,9 +507,11 @@ a{
 }
 
 
+.title_1{
+    background-color: rgb(64, 64, 129);
+}
 
-
-.title_1 .container{
+.title_1 .container {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -516,28 +528,28 @@ a{
 
 .main_title_3{
     font-size: 60px;
-    width: 78%;
-    color:white;
+    width: 90%;
+    color:black;
     letter-spacing: 1px;
     margin-bottom: 30px;
 }
 
 .main_title_8{
     color: darkgray;
-    width: 65%;
+    width: 85%;
     font-size: 20px;
     font-weight: bold;
-    line-height: 30px;
+    line-height: 35px;
     text-align: left;
 }
 
 .main__link{
-   color: white;
+   color: black;
    background-color: orange;
    margin-right: 20px;
    border: orange solid 1px;
    border-radius: 10px;
-   padding: 10px 5px ;
+   padding: 10px 36px ;
    transition: .4s;
    font-weight: bold;
    letter-spacing: 1px;
@@ -546,14 +558,18 @@ a{
 }
 
 .main__link:hover{
-    background-color: darkblue;
+    background-color: cyan;
 }
 
 
 .main_title_7{
-    width: 170%;
+    width: 150%;
     position: relative;
     right: 120px;
+}
+
+.main_title_2{
+    display: flex;
 }
 
 
