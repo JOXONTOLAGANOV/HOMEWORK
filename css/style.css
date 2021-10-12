@@ -268,22 +268,22 @@ a{
     font-weight: bold;
 }
 
-.mainn{
-    margin-top: 200px;
+.mainn .container{
+    margin-top: 00px;
 }
 
 .mainn_photo{
     display: flex;
-    width: 70%;
+    width: 40%;
     margin-left: 100px;
 }
 
 .mainn_img{
-    width: 100%;
+    width: 70%;
 }
 
 .mainn_img{
-    width: 80%;
+    width: 60%;
    position: relative;
    right: -70px;
 }
@@ -324,7 +324,7 @@ a{
 }
 
 .mainn_photo1{
-    width: 150%;
+    width: 100%;
 }
 
 .mainn_textt1{
@@ -452,3 +452,108 @@ a{
 .main_1{
     background-color: rgb(66, 66, 160);
 }
+
+
+
+
+
+
+
+
+.main_123{
+    margin-top: 300px;
+}
+
+.title_123{
+    color: white;
+}
+
+.photo_123{
+    display: flex;
+    width: 65%;
+}
+
+.text_123{
+    position: relative;
+    bottom: 200px;
+    font-size: 60px;
+    color: black;
+    margin-left: 355px;
+}
+
+.text1_123{
+    width: 40%;
+    text-align: center;
+    margin-left: 350px;
+    position: relative;
+    bottom: 160px;
+    line-height: 30px;
+    color: rgb(136, 127, 127);
+}
+
+.img_1234{
+    position: relative;
+    right: 70px;
+}
+
+
+
+
+.title_1 .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.big__text{
+    position: relative;
+    right: -27px;
+    bottom: 20px;
+}
+
+
+.main_title_3{
+    font-size: 60px;
+    width: 78%;
+    color:white;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.main_title_8{
+    color: darkgray;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: left;
+}
+
+.main__link{
+   color: white;
+   background-color: orange;
+   margin-right: 20px;
+   border: orange solid 1px;
+   border-radius: 10px;
+   padding: 10px 5px ;
+   transition: .4s;
+   font-weight: bold;
+   letter-spacing: 1px;
+   position: relative;
+   bottom: -30px;
+}
+
+.main__link:hover{
+    background-color: darkblue;
+}
+
+
+.main_title_7{
+    width: 170%;
+    position: relative;
+    right: 120px;
+}
+
+
